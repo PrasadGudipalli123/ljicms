@@ -27,18 +27,16 @@ products:
       of coffee beans grown with great care for the environment and local
       communities. Check our post or contact us directly for current
       availability.
-  - image: /img/illustrations-coffee-gear.svg
+  - image: /img/Transparent.png
     text: >-
-      We offer a small, but carefully curated selection of brewing gear and
-      tools for every taste and experience level. No matter if you roast your
-      own beans or just bought your first french press, you’ll find a gadget to
-      fall in love with in our shop.
+      A digital transformation platform for loyalty and customer engagement
+      delivers number of patent pending capabilities to help brands:
 values:
-  heading: Our values
+  heading: 'Model, Measure and Maximize Guest Value across 3‐Dimensions'
   text: >-
-    Coffee is an amazing part of human culture but it has a dark side too – one
-    of colonialism and mindless abuse of natural resources and human lives. We
-    want to turn this around and return the coffee trade to the drink’s
-    exhilarating, empowering and unifying nature.
+    Gravty provides configurable BIT ValueTM framework for you to model, measure
+    and maximize guest value across 3‐dimensions: Behaviors, Influences and
+    Transactions (BIT) ‐ collectively impacting organization's profitability
+    through increased revenue, reduced cost and improved brand equity.
 ---
 
