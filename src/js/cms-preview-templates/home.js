@@ -35,9 +35,6 @@ export default class PostPreview extends React.Component {
               </div>)}
             </div>
 
-            <div className="tc">
-              <a href="#" className="btn raise">See all products</a>
-            </div>
           </div>
         </div>
 
@@ -51,15 +48,8 @@ export default class PostPreview extends React.Component {
                 <p>{entry.getIn(["data", "values", "text"])}</p>
               </div>
 
-              <div className="w-60-l ph2-l">
-                <img src="/img/home-about-section.jpg" alt="" className="mb3"/>
-              </div>
+              
             </div>
-
-            <div className="tc">
-              <a href="{{.buttonLink}}" className="btn raise">Read more</a>
-            </div>
-
           </div>
         </div>
 
