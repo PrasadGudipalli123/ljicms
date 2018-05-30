@@ -9,4 +9,33 @@
 {{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
 
 {{ partial "blog" . }}
+<div class="gravty-page">
+            <div id="gravty-offers">
+            </div>
+        </div>
+        <script>
+        GRAVTY.Offers({
+            member_id: 'MWG1XLD',
+            token: 'Token e7607f16cb6c47a5c3ff7960bdc371659646ad2a',
+            apikey: 'bLYID7PMev6eJwsTlnACv2Ap30KDzTmv4Fc89lF3',
+            version: 'v1.0',
+            color: '#000000',
+            count: '5',
+            language: 'es-ES',
+            showFullView : true,
+            showRatings : true,
+            showComments:true,
+            fb_share : true,
+            pagination :true
+        });
+    window.onload = function() {
+        if (window.GRAVTY) {
+            GRAVTY.sessionExpired = function(){
+                alert('session got expired')
+            }
+        } else {
+            alert('GRAVTY Javascript SDK is not loaded');
+        }
+    }
+    </script>
 {{ end }}
