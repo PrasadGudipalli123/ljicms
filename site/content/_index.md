@@ -1,7 +1,7 @@
 ---
 title: Reimagine Loyalty
 subtitle: Loyalty Juggernaut Inc. (LJI)
-image: /img/background2.jpg
+image: /img/about-jumbotron.jpg
 blurb:
   heading: Loyalty Juggernaut Inc. (LJI)
   text: >-
